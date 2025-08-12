@@ -2,8 +2,8 @@
 document.getElementById('year').textContent = new Date().getFullYear();
 
 // Adresse email "légèrement" obfusquée dans la page (évite quelques bots très basiques)
-const user = 'contact';
-const domain = 'tondomaine.fr';
+const user = 'dynamobi.contact';
+const domain = 'gmail.com';
 const email = `${user}@${domain}`;
 const mailtoDirect = document.getElementById('mailto-direct');
 if (mailtoDirect) {
